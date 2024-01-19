@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="460.0" maxWidth="600.0" minHeight="460.0" minWidth="600.0" prefHeight="460.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ai_assignment3.PartIController">
+   <children>
+      <Button fx:id="ruTrainingDataBtn" layoutX="79.0" layoutY="67.0" mnemonicParsing="false" onAction="#onTrainingBtn" prefHeight="40.0" prefWidth="133.0" text="Run training data" />
+      <Button fx:id="runTestingDataBtn" disable="true" layoutX="79.0" layoutY="165.0" mnemonicParsing="false" onAction="#onTestingBtn" prefHeight="40.0" prefWidth="133.0" text="Start testing" />
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="150.0" layoutX="323.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" />
+      <Label id="resultLbl" fx:id="resultLbl" layoutX="337.0" layoutY="14.0" prefHeight="53.0" prefWidth="255.0" style="-fx-font-weight: bold" />
+      <Button layoutX="464.0" layoutY="421.0" mnemonicParsing="false" onAction="#onExitBtn" prefHeight="32.0" prefWidth="70.0" text="Exit" />
+      <TextFlow fx:id="finalResult" layoutX="254.0" layoutY="67.0" prefHeight="346.0" prefWidth="330.0" visible="false" />
+   </children>
+</Pane>
